@@ -1,0 +1,31 @@
+/* src/ProductList.css */
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
